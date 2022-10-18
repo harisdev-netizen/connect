@@ -1,5 +1,38 @@
+.logo {
+  width: 55px;
+  margin-top: 5px;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.logoarea {
+  display: inline-flex;
+}
+
+.other {
+  display: inline-flex;
+}
+
+:root {
+  --primary-color: #FFFFFF;
+  --secondary-color: #000000;
+}
+
+.dark-theme {
+  --primary-color: #000000;
+  --secondary-color: #FFFFFF;
+
+}
+
 body {
-  background: #ffff;
+  background: var(--primary-color);
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
@@ -47,7 +80,7 @@ img {
 }
 
 .profile-name3 span {
-  color: black;
+  color: var(--secondary-color);
   font-weight: 500;
 }
 
@@ -60,10 +93,22 @@ img {
 
 a {
   text-decoration: none;
-  color: black;
+  color: color: var(--secondary-color);
   transition: color 1s;
 }
 
 .copyright {
   color: gray;
+}
+
+#icon {
+  width: 30px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.icon-class {
+  text-align: end;
+  padding: 10px;
+  margin: 10px;
 }
