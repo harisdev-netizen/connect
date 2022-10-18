@@ -1,10 +1,20 @@
 /* ----------------------------------------------------- */
 
+:root {
+  --primary-color: #FFFFFF;
+  --secondary-color: #000000;
+}
+
+.dark-theme {
+  --primary-color: #000000;
+  --secondary-color: #FFFFFF;
+}
+
 .links {
   text-align: center;
   margin-top: 20px;
   padding: 20px;
-  border: solid white;
+  border: solid var(--secondary-color);
   border-width: 1px;
   width: 290px;
   display: block;
@@ -22,7 +32,7 @@
   text-align: center;
   margin-top: 20px;
   padding: 20px;
-  border: solid #2b3035;
+  border: solid var(--secondary-color);
   border-width: 0.5px;
   width: 290px;
   display: block;
@@ -54,7 +64,7 @@
   margin-right: auto;
   border-radius: 8px;
   font-size: 15px;
-  color: white;
+  color: var(--secondary-color);
 }
 /* --------------YOUTUBE--------------------------------------- */
 
@@ -64,7 +74,7 @@
   text-align: center;
   margin-top: 20px;
   padding: 20px;
-  border: solid #2b3035;
+  border: solid var(--secondary-color);
   border-width: 0.5px;
   width: 290px;
   display: block;
@@ -78,14 +88,14 @@
   text-align: center;
   margin-top: 20px;
   padding: 20px;
-  background: #2b3035;
+  background: var(--secondary-color);
   width: 290px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
   font-size: 15px;
-  color: white;
+  color: var(--primary-color);
 }
 /* --------------GITHUB--------------------------------------- */
 
@@ -95,7 +105,7 @@
   text-align: center;
   margin-top: 20px;
   padding: 20px;
-  border: solid black;
+  border: solid var(--secondary-color);
   border-width: 0.5px;
   width: 290px;
   display: block;
@@ -129,7 +139,7 @@
   margin-right: auto;
   border-radius: 8px;
   font-size: 15px;
-  color: white;
+  color: var(--secondary-color);
 }
 /* --------------INSTAGRAM--------------------------------------- */
 
@@ -139,7 +149,7 @@
   text-align: center;
   margin-top: 20px;
   padding: 20px;
-  border: solid black;
+  border: solid var(--secondary-color);
   border-width: 0.5px;
   width: 290px;
   display: block;
@@ -171,7 +181,7 @@
   margin-right: auto;
   border-radius: 8px;
   font-size: 15px;
-  color: white;
+  color: var(--secondary-color);
 }
 /* --------------TWITTER--------------------------------------- */
 
@@ -181,7 +191,7 @@
   text-align: center;
   margin-top: 20px;
   padding: 20px;
-  border: solid black;
+  border: solid var(--secondary-color);
   border-width: 0.5px;
   width: 290px;
   display: block;
@@ -203,7 +213,7 @@
   margin-right: auto;
   border-radius: 8px;
   font-size: 15px;
-  color: white;
+  color: var(--secondary-color);
 }
 /* --------------LIN--------------------------------------- */
 
@@ -213,7 +223,7 @@
   text-align: center;
   margin-top: 20px;
   padding: 20px;
-  border: solid black;
+  border: solid var(--secondary-color);
   border-width: 0.5px;
   width: 290px;
   display: block;
@@ -235,6 +245,6 @@
   margin-right: auto;
   border-radius: 8px;
   font-size: 15px;
-  color: white;
+  color: var(--secondary-color);
 }
 /* --------------MAIL--------------------------------------- */
